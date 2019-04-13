@@ -1,1 +1,294 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  font-family: "Trebuchet MS";
+}
+html h1,
+body h1 {
+  font-size: 40px;
+}
+html h2,
+body h2 {
+  font-size: 25px;
+}
+html .top-bar,
+body .top-bar {
+  background: #ffb700;
+  height: 15px;
+}
+html .nav,
+body .nav {
+  display: flex;
+  justify-content: flex-end;
+  width: 1200px;
+  margin: 0 auto;
+}
+@media (max-width: 500px) {
+  html .nav,
+  body .nav {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+html .nav a,
+body .nav a {
+  text-decoration: none;
+  font-size: 18px;
+  padding: 20px;
+  color: black;
+}
+html header,
+body header {
+  display: flex;
+  justify-content: flex-end;
+  width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+}
+@media (max-width: 500px) {
+  html header,
+  body header {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+html header a,
+body header a {
+  text-decoration: none;
+  font-size: 18px;
+  padding: 20px;
+  color: black;
+}
+html header img,
+body header img {
+  width: 300px;
+}
+html header .header-pic,
+body header .header-pic {
+  width: 300px;
+}
+html header .about-me,
+body header .about-me {
+  width: 500px;
+}
+@media (max-width: 500px) {
+  html header .about-me,
+  body header .about-me {
+    width: 350px;
+    margin: 40px;
+  }
+}
+html header .contact-info,
+body header .contact-info {
+  width: 200px;
+}
+html header .contact-info p,
+body header .contact-info p {
+  padding: 10px 0px;
+}
+html section .education,
+body section .education {
+  display: flex;
+  justify-content: flex-end;
+  width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-bottom: 80px;
+}
+@media (max-width: 500px) {
+  html section .education,
+  body section .education {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+html section .education a,
+body section .education a {
+  text-decoration: none;
+  font-size: 18px;
+  padding: 20px;
+  color: black;
+}
+html section .education .education-content,
+body section .education .education-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0px;
+}
+@media (max-width: 500px) {
+  html section .education h2,
+  body section .education h2 {
+    font-size: 20px;
+  }
+}
+html section .skills,
+body section .skills {
+  display: flex;
+  justify-content: flex-end;
+  width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-bottom: 80px;
+}
+@media (max-width: 500px) {
+  html section .skills,
+  body section .skills {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+html section .skills a,
+body section .skills a {
+  text-decoration: none;
+  font-size: 18px;
+  padding: 20px;
+  color: black;
+}
+html section .skills .education-content,
+body section .skills .education-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0px;
+}
+@media (max-width: 500px) {
+  html section .skills h2,
+  body section .skills h2 {
+    font-size: 20px;
+  }
+}
